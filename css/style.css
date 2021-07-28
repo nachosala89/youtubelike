@@ -1,0 +1,22 @@
+nav {
+    position: fixed;
+    top: 0;
+    background-color: blue;
+    height: 56px;
+    width: 100%;
+}
+
+main {
+    width: 812px;
+    background-color: yellow;
+    height: 1000px;
+}
+
+#sidebar {
+    position: absolute;
+    top: 56px;
+    right: 0px;
+    background-color: red;
+    height: 1000px;
+    width: 300px;
+}
