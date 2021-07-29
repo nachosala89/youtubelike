@@ -1,22 +1,126 @@
+body {
+    background-color: #F9F9F9;
+    font-family: Roboto, Arial, sans-serif;
+}
+
 nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     top: 0;
-    background-color: blue;
+    color: #606060;
+    background-color: white;
+    z-index: 5;
     height: 56px;
     width: 100%;
+    font-size: 25px;
+}
+
+#stripes {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #606060;
+}
+
+#searchbar {
+    width: 574px;
+    height: 33px;
+    border-radius: 1px;
+    font-size: 16px;
+}
+
+#searchlogo {
+    border: 1px solid gray;
+    border-radius: 1px;
+    padding: 5px 20px;
+}
+
+#microphone {
+    padding: 0 20px;
+}
+
+#user-image {
+    height: 36px;
+}
+
+.nav-part {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right-item {
+    padding: 0 15px;
 }
 
 main {
-    width: 812px;
-    background-color: yellow;
+    width: 744px;
     height: 1000px;
+    padding-left: 68px;
+}
+
+#video-title {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#under-title {
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+}
+
+#views {
+    flex-basis: 275px;
+}
+
+#thumbs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.under-item {
+    padding: 10px;
 }
 
 #sidebar {
     position: absolute;
-    top: 56px;
-    right: 0px;
-    background-color: red;
+    top: 86px;
+    right: 46px;
     height: 1000px;
-    width: 300px;
+    width: 404px;
+    display: flex;
+    flex-direction: column;
+}
+
+iframe {
+    padding-top: 80px;
+}
+
+.suggestion {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 6px;
+}
+
+.suggestion-info {
+    padding-left: 6px;
+}
+
+.thumb-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 4px 0;
+}
+
+.thumb-subtitle {
+    margin: 3px 0;
+    color: gray;
+    font-size: 12px;
 }

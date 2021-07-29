@@ -5,18 +5,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pink Floyd - Atom Heart Mother (Full Album) 1970</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
 </head>
 
 <body>
     <nav>
-
+        <div class="nav-part" id="nav-left">
+            <a href="#"><i class="fas fa-bars" id="stripes"></i></a>
+            <a href="#"><img src="images/youtube-logo.png" alt="Youtube logo" id="logo" height="40"></img>
+            </a>
+        </div>
+        <div class="nav-part" id="nav-center">
+            <input type="text" id="searchbar" placeholder="Search">
+            <i class="fas fa-search" id="searchlogo"></i>
+            <i class="fas fa-microphone" id="microphone"></i>
+        </div>
+        <div class="nav-part" id="nav-right">
+            <i class="fas fa-video nav-right-item" id="camera"></i>
+            <i class="fas fa-th nav-right-item" id="squares"></i>
+            <i class="fas fa-bell nav-right-item" id="bell"></i>
+            <img class="nav-right-item" id="user-image" src="images/nacho.png" alt="User image"></img>
+        </div>
     </nav>
     <main>
-
+        <iframe width="720" height="450" src="https://www.youtube.com/embed/G5m9ovRDeN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <h1 id="video-title">Pink Floyd - Atom Heart Mother (Full Album) 1970</h1>
+        <div id="under-title">
+            <p id="views">144,509 views • 19 oct. 2020</p>
+            <div id="thumbs">
+                <div class="under-item">
+                    <i class="fas fa-thumbs-up"></i>
+                    <span>1,580</span>
+                </div>
+                <div class="under-item">
+                    <i class="fas fa-thumbs-down"></i>
+                    <span>20</span>
+                </div>
+            </div>
+            <div class=under-item id="share">
+                <i class="fas fa-share"></i>
+                <span>SHARE</span>
+            </div>
+            <div class="under-item" id="save">
+                <i class="fas fa-plus"></i>
+                <span>SAVE</span>
+            </div>
+            <div class="under-item" id="points">
+                <i class="fas fa-ellipsis-h"></i>
+            </div>
+        </div>
     </main>
     <div id="sidebar">
+        <div class="suggestion">
+            <img src="images/thumbnail1.png" alt="First suggestion">
+            <div class="suggestion-info">
+                <h4 class="thumb-title">Stevie Ray Vaughan live @ The American Caravan, w/... </h4>
+                <p class="thumb-subtitle">
+                    SRVMusicVideo <br> 1M views • 6 Years ago
+                </p>
+            </div>
+        </div>
+        <div class="suggestion">
+            <img src="images/thumbnail2.png" alt="Second suggestion">
+            <div class="suggestion-info">
+                <h4 class="thumb-title">Miles Davis Quintet, Teatro dell'Arte, Milan, Italy, Octo... </h4>
+                <p class="thumb-subtitle">
+                    ebjazz93 <br> 402K views • 2 Months ago
+                </p>
+            </div>
+        </div>
+        <div class="suggestion">
+            <img src="images/thumbnail3.png" alt="Third suggestion">
+            <div class="suggestion-info">
+                <h4 class="thumb-title">John Henderson Quartet - Live in Munich (1994) </h4>
+                <p class="thumb-subtitle">
+                    LOFTmusic <br> 165K views • 2 Years ago
+                </p>
+            </div>
+        </div>
 
     </div>
 </body>
